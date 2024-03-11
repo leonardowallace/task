@@ -1,0 +1,66 @@
+body{
+    background-color: #F2E8B3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.header h1{
+    text-decoration: underline
+}
+
+.container{
+    border-left: #F25E5E solid 10px;
+    margin-left: 10px;
+    height: 100vh;
+}
+
+.container .task{
+    border: #0D0D0D solid 1px;
+    border-left: none;
+    border-right: none;
+}
+
+.container .task .newTask{
+    background: transparent;
+    border: none;
+}
+
+.container .task .newTask:focus {
+    outline: none;
+}
+
+.container li{
+    border-bottom: #0D0D0D solid 1px;
+    font-weight: 500;
+    margin-left: -40px;
+    font-size: 1.5rem;
+}
+
+button{
+    background: transparent;
+    border: none;
+    color: red;
+    font-weight: 700;
+}
+
+.add{
+    color: green;
+}
+
+input[type="checkbox" i] {
+    background-color: transparent;
+    border: none;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    transition: text-decoration 0.3s ease;
+}
