@@ -68,3 +68,12 @@ li.completed span {
     text-decoration: line-through;
     transition: text-decoration 0.3s ease;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(180deg, #0D0D0D 0%, rgba(0, 0, 0, 0) 100%);
+    color: white;
+}
